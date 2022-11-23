@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Sidebar.css"
 import Logo from "../../assets/logo.svg";
+import HeaderSocial from '../home/HeaderSocial';
 
 const Sidebar = () => {
   return (
@@ -55,9 +56,8 @@ const Sidebar = () => {
 
 
     <div className="nav__footer">
-      <spane className="copyright">
-        &copy; 2022 -2023.
-      </spane>
+    <HeaderSocial />
+      
     </div>
 
    </aside>

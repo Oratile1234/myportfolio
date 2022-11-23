@@ -9,6 +9,7 @@
 .intro{
     max-width: 540px;
     text-align: center;
+    z-index: 1;
 }
 
 .home__img{
@@ -19,11 +20,11 @@
     font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
 }
-.home__socials{
+/* .home__socials{
     display: flex;
     column-gap: 1.75rem;
     margin: 1.5rem 0;
-}
+} */
 
 .home__social-link{
 color: var(--title-color);

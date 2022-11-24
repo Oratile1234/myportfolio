@@ -85,3 +85,10 @@ transition: .3s;
     animation: ani-mouse 2s linear infinite;
 
 }
+
+@media screen and(max-width: 1024px){
+    .aside{
+    left: -110px;
+    }
+    
+  } 

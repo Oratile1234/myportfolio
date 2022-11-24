@@ -10,21 +10,21 @@ const data = [
     id:1,
     image: Image1,
     title: "Backend Developer",
-    description: "fgreeirfniefuneifneinienfiewuieunfueifnueinfiefue"
+    description: "Use PostgreSQL for database and SQL queries"
 
   },
   {
     id:2,
     image: Image2,
     title: "Frontend Developer",
-    description: "fgreeirfniefuneifneinienfiewuieunfueifnueinfiefue"
+    description: "Use Angular2+, HTML & CSS, JavaScript"
 
   },
   {
     id:3,
     image: Image3,
     title: "Design",
-    description: "fgreeirfniefuneifneinienfiewuieunfueifnueinfiefue"
+    description: "Use Figma for UI/IX project design"
 
   }
 ]

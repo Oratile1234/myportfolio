@@ -6,7 +6,7 @@ const Data =[
         category: "education",
         icon: "icon-graduation",
         year: "2018 - 2022",
-        title: "Software Diploma",
+        title: "Tshwane University of Technology",
         desc: "National Diploma in Information Technology"
     },
     {

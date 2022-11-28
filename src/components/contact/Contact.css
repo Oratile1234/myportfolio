@@ -27,7 +27,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 85%;
     height: 100%;
     box-shadow: var(--shadow);
     background-color: var(--container-color);
@@ -46,7 +46,7 @@
     resize: none;
 }
 
-@media screen and(max-width: 1024px){
+@media screen and (max-width: 1024px){
     .contact__container{
    grid-template-columns: 300px 360px;
    justify-content: center;
@@ -57,7 +57,7 @@
    }
  }
 
- @media screen and(max-width: 768px){
+ @media screen and (max-width: 768px){
    .contact__container{
    grid-template-columns: 310px;
    row-gap: 1.875rem;
@@ -69,7 +69,7 @@
  }
 
 
- @media screen and(max-width: 350px){
+ @media screen and (max-width: 350px){
    .contact__container{
    grid-template-columns: 1fr;
 

@@ -1,6 +1,7 @@
 .work__filters{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 1.875rem;
     margin-bottom: 2.5rem;
 }
@@ -97,7 +98,7 @@ opacity: 0;
     transform: translateY(0);
 }
 
-@media screen and(max-width: 1024px){
+@media screen and  (max-width: 1024px){
     .work__filters {
         justify-content: center;
     }
@@ -110,9 +111,9 @@ opacity: 0;
     
   }
 
-  @media screen and(max-width: 576px){
+  @media screen and (max-width: 768px){
     .work__container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 310px;
     }
     
     .work__filters{
@@ -120,7 +121,7 @@ opacity: 0;
     }
   }
 
-  @media screen and(max-width: 350px){
+  @media screen and (max-width: 350px){
     .work__container{
     grid-template-columns: 1fr;
  

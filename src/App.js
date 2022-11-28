@@ -7,9 +7,11 @@ import Resume from './components/resume/Resume'
 import Contact from './components/contact/Contact'
 import Portfolio from './components/portfolio/Portfolio'
 
+
 function App() {
   return (
     <>
+ 
     <Sidebar />
     <main className="main">
      

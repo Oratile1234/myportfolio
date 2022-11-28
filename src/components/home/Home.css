@@ -88,6 +88,12 @@ transition: .3s;
 
 }
 
+.home__img
+{
+    border-radius: 50%;
+    width: 50%;
+}
+
 @media screen and(max-width: 1024px){
     .home__social-link{
         font-size: 1.25rem;

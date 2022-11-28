@@ -43,6 +43,7 @@
 
 .services__description{
     color: #f8f9fa;
+    font-size: large;
 }
 .services__card:nth-child(2) .services__title{
 color: var(--title-color);

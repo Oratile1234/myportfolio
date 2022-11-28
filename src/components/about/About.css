@@ -2,7 +2,9 @@
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
 }
-
+.about__img{
+    border-radius: 50%;
+}
 .about__data{
     padding: 1.875rem;
     background-color: var(--container-color);
@@ -76,7 +78,32 @@
 }
 
 .html{
+    width: 80%;
+    background-color: rgb(255, 209, 92);
+}
+
+.PostgreSQL{
+    width: 80%;
+    background-color: rgb(255, 209, 92);
+}
+
+.node{
     width: 75%;
+    background-color: rgb(255, 209, 92);
+}
+
+.angular{
+    width: 70%;
+    background-color: rgb(255, 209, 92);
+}
+
+.git{
+    width: 65%;
+    background-color: rgb(255, 209, 92);
+}
+
+.docker{
+    width: 60%;
     background-color: rgb(255, 209, 92);
 }
 
@@ -98,6 +125,7 @@
 
     .about__img {
         justify-self: center;
+        width: 50%;
     }
     
     .about__box{

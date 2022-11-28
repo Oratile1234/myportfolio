@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Image from "../../assets/avatar-2.svg";
+import Image from "../../assets/pic.jpg";
 
 
 const About = () => {
@@ -49,12 +49,72 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">HTML </h3>
-                <span className="skills__number">75%</span>
+                <h3 className="skills__name">HTML & CSS</h3>
+                <span className="skills__number">80%</span>
               </div>
 
               <div className="skills__bar">
                 <span className="skills__percentage html"></span>
+              </div>
+
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name"> Node.js</h3>
+                <span className="skills__number">75%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage node"></span>
+              </div>
+
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Angular2+</h3>
+                <span className="skills__number">70%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage angular"></span>
+              </div>
+
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Docker</h3>
+                <span className="skills__number">60%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage docker"></span>
+              </div>
+
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Git</h3>
+                <span className="skills__number">65%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage git"></span>
+              </div>
+
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">PostgreSQL</h3>
+                <span className="skills__number">80%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage PostgreSQL"></span>
               </div>
 
             </div>

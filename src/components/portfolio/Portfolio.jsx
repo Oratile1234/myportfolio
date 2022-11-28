@@ -13,13 +13,13 @@ const Portfolio = () => {
 
   return (
     <section className="work container section" id='portfolio'>
-        <h2 className="section__title">Recent Works</h2>
+        <h2 className="section__title">Projects</h2>
 
         <div className="work__filters">
             <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
-            <span className="work__item" onClick={() => filterItem("Creative")}>University</span>
-            <span className="work__item"  onClick={() => filterItem("Art")}>Intotek</span>
-            <span className="work__item"  onClick={() => filterItem("Branding")}>The digital Academy</span>
+            <span className="work__item" onClick={() => filterItem("University")}>University</span>
+            <span className="work__item"  onClick={() => filterItem("Intotek")}>Intotek</span>
+            <span className="work__item"  onClick={() => filterItem("DA")}>The digital Academy</span>
             {/* <span className="work__item"  onClick={() => filterItem("Design")}>Design</span> */}
         </div>
 
@@ -39,6 +39,7 @@ const Portfolio = () => {
                             <i className="icon-link work__button-icon"></i>
                              </a>
                     </div>
+                    
                 )
             })}
         </div>

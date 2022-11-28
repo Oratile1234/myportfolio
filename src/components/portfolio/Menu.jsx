@@ -1,47 +1,47 @@
 import React from 'react'
-import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
-import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
-import Work6 from "../../assets/work-6.svg";
+import Work1 from "../../assets/pro.webp";
+import Work2 from "../../assets/port.png";
+import Work3 from "../../assets/sr.jpg";
+import Work4 from "../../assets/soci.jpeg";
+import Work5 from "../../assets/todo.png";
+import Work6 from "../../assets/image.png";
 
 const Menu = [
     {
         id: 1,
         image: Work1,
-        title: "Project Management Illustrations",
-        category: "Art",
+        title: "Task manager Application",
+        category: "Intotek",
     },
     {
         id: 2,
         image: Work2,
-        title: "Project Management Illustrations",
-        category: "Creative",
+        title: "My Portfolio",
+        category: "DA",
     },
     {
         id: 3,
         image: Work3,
-        title: "Project Management Illustrations",
-        category: "Design",
+        title: "School Register and Demerit System",
+        category: "University",
     },
     {
         id: 4,
         image: Work4,
-        title: "Project Management Illustrations",
-        category: "Branding",
+        title: "Social Media clone",
+        category: "DA",
     },
     {
         id: 5,
         image: Work5,
-        title: "Project Management Illustrations",
-        category: "Design",
+        title: "My To-do",
+        category: "DA",
     },
     {
         id: 6,
         image: Work6,
-        title: "Project Management Illustrations",
-        category: "Design",
+        title: "Alumni App",
+        category: "DA",
     },
 ]
 

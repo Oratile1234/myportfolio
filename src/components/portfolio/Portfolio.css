@@ -26,6 +26,11 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+   
+}
+
+.work__img {
+    height: 25rem;
 }
 
 .work__mask{

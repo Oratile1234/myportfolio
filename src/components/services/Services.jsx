@@ -10,21 +10,32 @@ const data = [
     id:1,
     image: Image1,
     title: "Backend Developer",
-    description: "Use PostgreSQL for database and SQL queries"
+    description:<ol>
+    <ul>PostgreSQL</ul>
+    <ul>Node.js</ul>
+  </ol>
 
   },
   {
     id:2,
     image: Image2,
     title: "Frontend Developer",
-    description: "Use Angular2+, HTML & CSS, JavaScript"
+    description: <ol>
+    <ul>Angular2+</ul>
+    <ul>HTML & CSS</ul>
+    <ul>JavaScript</ul>
+    <ul>TypeScript</ul>
+  </ol>
 
   },
   {
     id:3,
     image: Image3,
     title: "Design",
-    description: "Use Figma for UI/IX project design"
+    description:<ol>
+    <ul>Figma</ul>
+   
+  </ol>
 
   }
 ]

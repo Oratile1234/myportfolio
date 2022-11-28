@@ -58,16 +58,14 @@
     border-radius: 0.25rem;
 
 }
-.skills__bar{
+/* .skills__bar{
     background-color: #f1f1f1;
-}
+} */
 
-.skills__percentage{
+/* .skills__percentage{
     display: block;
-
-
-}
-.development{
+} */
+/* .development{
     width: 90%;
     background-color: rgb(255, 209, 92);
 }
@@ -75,9 +73,9 @@
 .ui__design{
     width: 80%;
     background-color: rgb(255, 209, 92);
-}
+} */
 
-.html{
+/* .html{
     width: 80%;
     background-color: rgb(255, 209, 92);
 }
@@ -105,7 +103,7 @@
 .docker{
     width: 60%;
     background-color: rgb(255, 209, 92);
-}
+} */
 
 
   @media screen and (max-width: 1024px){

@@ -27,7 +27,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name"> Development</h3>
-                <span className="skills__number "> 90%</span>
+                {/* <span className="skills__number "> 90%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -38,7 +38,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">UI/UX design</h3>
-                <span className="skills__number"> 80%</span>
+                {/* <span className="skills__number"> 80%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -50,7 +50,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">HTML & CSS</h3>
-                <span className="skills__number">80%</span>
+                {/* <span className="skills__number">80%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -62,7 +62,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name"> Node.js</h3>
-                <span className="skills__number">75%</span>
+                {/* <span className="skills__number">75%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -74,7 +74,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Angular2+</h3>
-                <span className="skills__number">70%</span>
+                {/* <span className="skills__number">70%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -86,7 +86,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Docker</h3>
-                <span className="skills__number">60%</span>
+                {/* <span className="skills__number">60%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -98,7 +98,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Git</h3>
-                <span className="skills__number">65%</span>
+                {/* <span className="skills__number">65%</span> */}
               </div>
 
               <div className="skills__bar">
@@ -110,7 +110,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">PostgreSQL</h3>
-                <span className="skills__number">80%</span>
+                {/* <span className="skills__number">80%</span> */}
               </div>
 
               <div className="skills__bar">

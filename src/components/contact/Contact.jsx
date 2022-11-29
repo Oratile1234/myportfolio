@@ -1,7 +1,17 @@
 import React from 'react'
 import "./Contact.css";
+import { useForm } from 'react-hook-form';
+
+
 
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (formData) =>  window.location = `mailto:maboteoratile53@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}(${formData.email})`
+
   return (
     <section className="contact container section" id='contact'>
       <h2 className="section__title">Get In Touch</h2>
@@ -12,26 +22,26 @@ const Contact = () => {
           <p className="contact__details">Don't like forms? Send me an email.</p>
         </div>
 
-        <form action="" className="contact__form">
+        <form onSubmit={handleSubmit(onSubmit)} action="" className="contact__form">
           <div className="contact__form-group">
             <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Insert your Name'/>
+              <input {...register('name')} type="text" className="contact__form-input" placeholder='Insert your Name'/>
             </div>
 
             <div className="contact__form-div">
-              <input type="email" className="contact__form-input" placeholder='Insert your Email'/>
+              <input {...register('email')} type="email" className="contact__form-input" placeholder='Insert your Email'/>
             </div>
           </div>
 
             <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Insert your Subject'/>
+              <input {...register('subject')}  type="text" className="contact__form-input" placeholder='Insert your Subject'/>
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder="write your message" ></textarea>
+              <textarea {...register('message')} cols="30" rows="10" className='contact__form-input' placeholder="write your message" ></textarea>
             </div>  
 
-        <button className="btn">Send Message</button>
+        <button className="btn" type='submit'>Send Message</button>
 
         </form>
       </div>

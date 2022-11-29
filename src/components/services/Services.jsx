@@ -9,7 +9,7 @@ const data = [
   {
     id:1,
     image: Image1,
-    title: "Backend Developer",
+    title: "Backend ",
     description:<ol>
     <ul>PostgreSQL</ul>
     <ul>Node.js</ul>
@@ -19,7 +19,7 @@ const data = [
   {
     id:2,
     image: Image2,
-    title: "Frontend Developer",
+    title: "Frontend ",
     description: <ol>
     <ul>Angular2+</ul>
     <ul>HTML & CSS</ul>
@@ -43,7 +43,7 @@ const data = [
 const Services = () => {
   return (
     <section className="services container section" id="services">
-      <h2 className="section__title">Services</h2>
+      <h2 className="section__title">Skills</h2>
 
       <div className="services__container grid">
         {data.map(({id,image,title,description}) => {

@@ -1,5 +1,5 @@
 .services__container{
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(4 , 1fr);
     column-gap: 1.875rem;
 
 }
@@ -17,17 +17,22 @@
 }
 
 .services__card:nth-child(1){
-    background-color: rgb(108, 108, 229 );
+    background-color: rgb(233, 183, 190);
     box-shadow: 0px 5px 20px 0px rgb(108, 108, 229 / 50%);
 }
 
 .services__card:nth-child(2){
-    background-color: rgb(249, 215, 76);
+    background-color:  rgb(233, 160, 169);
     box-shadow: 0px 5px 20px 0px rgb(249, 215, 76 / 50%);
 }
 
 .services__card:nth-child(3){
     background-color: rgb(249, 123, 139 );
+    box-shadow: 0px 5px 20px 0px rgb(249, 123, 139 / 50%);
+}
+.services__card:nth-child(4){
+    /* margin-top: 2rem; */
+    background-color: rgb(240, 86, 106);
     box-shadow: 0px 5px 20px 0px rgb(249, 123, 139 / 50%);
 }
 
@@ -49,10 +54,39 @@
 color: var(--title-color);
 }
 
+.services__card:nth-child(2) .services__title{
+    color: var(--title-color);
+    }
+    
+    
+    .services__card:nth-child(3) .services__description{
+        color: var(--text-color);
+        }
+        .services__card:nth-child(3) .services__title{
+            color: var(--title-color);
+            }
+            
+            
+            .services__card:nth-child(4) .services__description{
+                color: var(--text-color);
+                }
 
-.services__card:nth-child(2) .services__description{
+.services__card:nth-child(4) .services__title{
     color: var(--text-color);
     }
+
+    .services__card:nth-child(2) .services__description{
+        color: var(--text-color);
+        }
+
+    .services__card:nth-child(1) .services__title{
+        color: var(--title-color);
+        }
+        
+        
+        .services__card:nth-child(1) .services__description{
+            color: var(--text-color);
+            }
 
     @media screen and (max-width: 1024px) {
         .services__container{

@@ -26,15 +26,17 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
-   
+width: fit-content;
 }
 
 .work__img {
-    height: 25rem;
+    height: 15rem;
+    /* width: 100%; */
+    /* zoom: 120%; */
 }
 
 .work__mask{
-    background: #6c6ce5;
+    background: rgb(233, 183, 190);
     position: absolute;
     left: 0;
     top: 0;
@@ -62,7 +64,12 @@
     transform: translateY(-40px);
     transition: .3s;
 }
-
+.work__description {
+    color: #fff;
+    font-size: var(--small-font-size); 
+    padding: 6rem 1.35rem;
+    font-weight: 100;
+}
 .work__title{
     color: #fff;
     font-size: var(--h3-font-size);

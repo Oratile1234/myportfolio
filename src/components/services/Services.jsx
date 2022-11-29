@@ -9,9 +9,10 @@ const data = [
   {
     id:1,
     image: Image1,
-    title: "Backend ",
+    title: "Backend & Database ",
     description:<ol>
     <ul>PostgreSQL</ul>
+    <ul>MySQL</ul>
     <ul>Node.js</ul>
   </ol>
 
@@ -37,6 +38,18 @@ const data = [
    
   </ol>
 
+  },
+  {
+    id:3,
+    image: Image3,
+    title: "Soft skills",
+    description:<ol>
+      <ul>Interpersonal Skills</ul>
+    <ul>Problem solving</ul>
+     <ul>Communication</ul>
+     <ul>Team Player</ul>
+    <ul>Leadership</ul>
+  </ol>
   }
 ]
 

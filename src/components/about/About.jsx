@@ -12,19 +12,18 @@ const About = () => {
       <div className="about__container grid">
         <img src={Image} alt="" className="about__img" />
 
-        <div className="about__data grid">
+        {/* <div className="about__data grid"> */}
           <div className="about__info">
             <p className="about__description">
-              tyuiortryuiyuioxjewmxejilwkxrmrjeknmlrkejc
-              xebuwhiexuexrqemrimeq\
-              rmjieicerjcie
-              krecor
+            I am an open-minded, technical person that enjoys working with computers and learning new technologies. I have
+experience working with SQL and databases. I have a passion to learn programming and I want to grow my skills as a
+software developer.
             </p>
             <a href={CV} className="btn"> Download CV </a>
           </div>
 
         
-        </div>
+        {/* </div> */}
       </div>
     </section>
   )

@@ -2,9 +2,9 @@ import React from 'react'
 import Work1 from "../../assets/pro.webp";
 import Work2 from "../../assets/port.png";
 import Work3 from "../../assets/sr.jpg";
-import Work4 from "../../assets/soci.jpeg";
-import Work5 from "../../assets/todo.png";
-import Work6 from "../../assets/image.png";
+// import Work4 from "../../assets/soci.jpeg";
+// import Work5 from "../../assets/todo.png";
+// import Work6 from "../../assets/image.png";
 
 const Menu = [
     {
@@ -70,9 +70,9 @@ const Menu = [
         title: "Portfolio website",
         description:"My own resume where I showcase my skills and experience",
         technologies: <ol>
-        <ul>PHP</ul>
-        <ul>MySQL</ul>
-        <ul>Xampp</ul>
+        <ul>React</ul>
+        <ul>HTML</ul>
+        <ul>CSS</ul>
     </ol>,
         category: "DA",
     },

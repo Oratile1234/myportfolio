@@ -19,7 +19,7 @@ const About = () => {
 experience working with SQL and databases. I have a passion to learn programming and I want to grow my skills as a
 software developer.
             </p>
-            <a href={CV} className="btn"> Download CV </a>
+            <a href={CV} className="btn" download> Download CV </a>
           </div>
 
         

@@ -12,6 +12,10 @@
     z-index: 1;
 }
 
+.home__education{
+    font-size: 2rem;
+}
+
 .home__img{
     margin-bottom: 1.5rem;
     border-radius: 60%;

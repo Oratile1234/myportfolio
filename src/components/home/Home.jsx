@@ -16,8 +16,8 @@ const Home = () => {
       <motion.img 
       animate={{
         scale: [2, 1, 1, 2, 1],
-        rotate: [0, 0, 270, 270, 0],
-        borderRadius: ["20%", "40%", "50%", "20%", "50%"],
+        rotate: [0, 0, 100, 100, 0],
+        borderRadius: ["20%", "30%", "10%", "20%", "50%"],
       }}
       src={Me} alt="" className="home__img" />
       
